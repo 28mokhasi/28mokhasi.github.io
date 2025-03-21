@@ -1,0 +1,150 @@
+/* Reset default margins/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color or image for the whole page */
+body {
+    background-color: #e8f5e9;  
+    /* OR for background image:
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    */
+}
+
+/* Header Styling */
+header {
+    background: #444; /* Dark background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+/* Navigation Bar */
+nav {
+    background: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #ff9800;
+    border-radius: 5px;
+}
+
+/* Main Content Styling */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Text Styling */
+h1, h2 {
+    font-family: 'Poppins', sans-serif; /* Keep headings sans-serif */
+}
+
+p {
+    font-family: 'Georgia', serif; /* Apply serif font for paragraphs */
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Unique Layout for Home Page */
+.unique-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-box {
+    flex: 1;
+    min-width: 300px;
+    padding-right: 20px;
+}
+
+.text-box h2 {
+    font-size: 2em;
+    font-family: "Georgia", serif;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Image Box */
+.image-box {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.image-box img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Call-to-Action Button */
+.cta-button {
+    display: inline-block;
+    background: #007acc;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #005a99;
+}
